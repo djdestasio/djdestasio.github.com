@@ -30,7 +30,7 @@ see things differently. Sometimes it's good to be skeptical. Not only is it good
 individuals and organizations. Rather than rationalizing why someone on your team doesn't see the truth the way that you do,
 it's far more beneficial challenge your own perspective and find out how to improve as a team.
 
-I work with a great team of people and far more reassuring to me that those people are willing to challenge what we do on
+I work with a great team of people and it is far more reassuring to me that those people are willing to challenge what we do on
 a regular basis than it would be for everyone to be silent as if everything was perfect. No matter how good we are nothing
 will ever be perfect and there will always be room for improvement as long as people are skeptical about the status quo to
 drive things in a positive direction.
