@@ -24,7 +24,7 @@ messages that she was able to receive that had an iphone (that we knew of anyway
 
 After some digging, I stumbled upon this post http://www.lifehacker.com.au/2012/01/fix-the-imessage-iphone-to-android-bug/
 that describes a known issue when you switch from an iPhone to Android. Essentially, you must log into your Apple account
-and deregister the old iPhone from your Apple profile in order to prevent other iPhones from attempting to send messages
+and de-register the old iPhone from your Apple profile in order to prevent other iPhones from attempting to send messages
 to your new (Android) device via iMessage. The only problem is, my wife NEVER had an iPhone.
 
 I personally checked the messages on the phones of a few of those family members and verified that the messages that were
@@ -32,23 +32,24 @@ being sent were showing up as iMessages, not texts. Also, none of their devices 
 and not send text messages (not that I really had to check this, because the messages worked fine in the morning and stopped
 in the afternoon -- almost immediately after switching numbers).
 
-While I cannot say with 100% certainty that my theory is correct; it appears that this was the problem my wife was experiencing;
-but, it wasn't her who hadn't deregistered an iPhone -- it was the person who previously owned her new number. I spoke with
-one of the networking engineers from Verizon this afternoon who said that it made complete sense (of course it does), but
-that there isnt' anything they can do about it. Since the number was put back into the pool -- there's no way to know who
-had that number before her. Furthermore, Apple is the one associating the number with an iPhone, so what could Verizon do?
+While I cannot say with 100% certainty that my theory is correct; it appears that this was the problem my wife was experiencing.
+But, what I believe is that it wasn't her who had not de-registered an iPhone -- it was the person who previously owned her
+new number. I spoke with one of the networking engineers from Verizon this afternoon who said that it made complete sense
+(of course it does), but that there isn't anything they can do about it. Since the number was put back into the pool --
+there's no way to know who had that number before her. Furthermore, Apple is the one associating the number with an iPhone,
+so what could Verizon do?
 
-So, we switched to a new number (again) and after factory reseting the device and reactivating it, the problem went away.
+So, we switched to a new number (again) and after factory resetting the device and reactivating it, the problem went away.
 All of those people who have iPhones can now text her without issue.
 
 So, what's wrong with this picture? If you have an iPhone and you message someone, your message obviously gets sent through
 the iOS gateway first in order to determine if the person on the other end has an i device. If the Apple infrastructure
 recognizes that number, it routes the message via iMessage rather than dumping it off as an SMS through the carrier. But,
 what happens when someone who had an iPhone drops their number and it goes back into the pool. What are the chances that
-they know or care enough to go to Apples website to deregister their device so the person that gets the number
-can receive texts from iPhones. Not very likely. Perhaps after some alloted amount of time the Apple infrastructure picks
- up that this number isn't valid and corrects itself, but I'm not betting on it.
+they know or care enough to go to Apples website to de-register their device so the person that gets the number
+can receive texts from iPhones. Not very likely. Perhaps after some allotted amount of time the Apple infrastructure picks
+up that this number isn't valid and corrects itself, but I'm not betting on it.
 
 iMessage has only been out sine 2011 -- so, it's possible that this is a ticking time bomb. Then again, the average person
- would have just assumed that the Verizon's network sucked and that was why the texts weren't being delivered.
+would have just assumed that the Verizon's network sucked and that was why the texts weren't being delivered.
 
