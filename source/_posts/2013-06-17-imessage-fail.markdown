@@ -22,7 +22,7 @@ members of our family -- 3 to be exact -- whose messages she also wasn't receivi
 thing each person had in common was that they had various versions of the iPhone. There wasn't a single person whose text
 messages that she was able to receive that had an iphone (that we knew of anyway).
 
-After some digging, I stumbled upon this post http://www.lifehacker.com.au/2012/01/fix-the-imessage-iphone-to-android-bug/
+After some digging, I stumbled upon [this post](http://www.lifehacker.com.au/2012/01/fix-the-imessage-iphone-to-android-bug/)
 that describes a known issue when you switch from an iPhone to Android. Essentially, you must log into your Apple account
 and de-register the old iPhone from your Apple profile in order to prevent other iPhones from attempting to send messages
 to your new (Android) device via iMessage. The only problem is, my wife NEVER had an iPhone.
