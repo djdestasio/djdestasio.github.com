@@ -50,6 +50,6 @@ they know or care enough to go to Apples website to de-register their device so 
 can receive texts from iPhones. Not very likely. Perhaps after some allotted amount of time the Apple infrastructure picks
 up that this number isn't valid and corrects itself, but I'm not betting on it.
 
-iMessage has only been out sine 2011 -- so, it's possible that this is a ticking time bomb. Then again, the average person
+iMessage has only been out since 2011 -- so, it's possible that this is a ticking time bomb. Then again, the average person
 would have just assumed that the Verizon's network sucked and that was why the texts weren't being delivered.
 
