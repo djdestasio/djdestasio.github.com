@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
-<div>
-<article role="article">
+<div class="row">
+  <article role="article" class="small-12 medium-8 columns">
   {% if page.title %}
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -12,31 +11,35 @@ layout: default
   {% endif %}
   {{ content }}
   {% unless page.footer == false %}
-    <footer>
-      {% if page.date or page.author %}<p class="meta">
-        {% if page.author %}{% include post/author.html %}{% endif %}
-        {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-        {% if page.categories %}{% include post/categories.html %}{% endif %}
-      </p>{% endif %}
-      {% unless page.sharing == false %}
-        {% include post/sharing.html %}
-      {% endunless %}
-    </footer>
+  <footer>
+    {% if page.date or page.author %}<p class="meta">
+    {% if page.author %}{% include post/author.html %}{% endif %}
+    {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+    {% if page.categories %}{% include post/categories.html %}{% endif %}
+    </p>{% endif %}
+    {% unless page.sharing == false %}
+    {% include post/sharing.html %}
+    {% endunless %}
+  </footer>
   {% endunless %}
-</article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
-</div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.page_asides.size %}
+  </article>
+  {% unless page.sidebar == false %}
+  <aside class="sidebar hide-for-small-only medium-4 columns">
+    {% if site.page_asides.size %}
     {% include_array page_asides %}
-  {% else %}
+    {% else %}
     {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+    {% endif %}
+  </aside>
+  {% endunless %}
+</div>
+<div class="row">
+  <div class="small-12 columns">
+    {% if site.disqus_short_name and page.comments == true %}
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+    </section>
+    {% endif %}
+  </div>
+</div>

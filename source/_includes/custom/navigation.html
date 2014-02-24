@@ -1,4 +1,25 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
+<ul class="left">
+  <li><a href="{{ root_url }}/">Dominick J. DeStasio</a></li>
+  <li class="has-dropdown">
+    <a href="#">Recent Posts</a>
+    <ul class="dropdown">
+      {% for post in site.posts limit: site.recent_posts %}
+      <li class="post">
+        <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
   <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
 </ul>
+<!--
+<ul class="right">
+  <li><a href="#">Button</a></li>
+  <li class="has-dropdown">
+    <a href="#">Dropdown</a>
+    <ul class="dropdown">
+      <li><a href="#">First link in dropdown</a></li>
+    </ul>
+  </li>
+</ul>
+-->

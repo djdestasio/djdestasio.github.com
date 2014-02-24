@@ -1,14 +1,42 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include header.html %}</header>
-  <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
+  {% include navigation.html %}
+  <div class="off-canvas-wrap ">
+    <div class="inner-wrap">
+      <nav class="tab-bar show-for-small-only">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+        </section>
+        <section class="middle tab-bar-section">
+          <h1 class="title">Dominick J. DeStasio</h1>
+        </section>
+      </nav>
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <li><a href="{{ root_url }}/">Dominick J. DeStasio</a></li>
+          <li><label>Recent Posts</label></li> 
+          {% for post in site.posts limit: site.recent_posts %}
+          <li class="post">
+            <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+          </li>
+          {% endfor %}
+          <li><label>Older Posts</label></li>
+          <li><a href="{{ root_url }}/blog/archives">Take Me To The Archives</a></li>
+        </ul>
+      </aside>
+      
+      <div id="main" class="main-section">
+        <div id="content">
+          {{ content | expand_urls: root_url }}
+        </div>
+      </div>
+      
+      {% include footer.html %}
+      {% include after_footer.html %}
+      <a class="exit-off-canvas"></a>
     </div>
   </div>
-  <footer role="contentinfo">{% include footer.html %}</footer>
-  {% include after_footer.html %}
+  {% include foundation.html %}
 </body>
 </html>
