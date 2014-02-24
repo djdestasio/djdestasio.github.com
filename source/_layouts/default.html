@@ -1,14 +1,41 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include header.html %}</header>
-  <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
+  {% include foundation.html %}
+  {% include navigation.html %}
+  <div class="off-canvas-wrap ">
+  <div class="inner-wrap">
+    <nav class="tab-bar show-for-small-only">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">Dominick J. DeStasio</h1>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Dominick J. DeStasio</label></li>
+        <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+      </ul>
+    </aside>
+
+    
+  <div id="main" class="main-section">
     <div id="content">
       {{ content | expand_urls: root_url }}
     </div>
   </div>
-  <footer role="contentinfo">{% include footer.html %}</footer>
+  
+  {% include footer.html %}
+
   {% include after_footer.html %}
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
 </body>
 </html>
