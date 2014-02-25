@@ -23,15 +23,15 @@ layout: default
   </footer>
   {% endunless %}
   </article>
-    {% unless page.sidebar == false %}
-    <aside class="sidebar hide-for-small-only medium-4 columns">
-      {% if site.page_asides.size %}
-      {% include_array page_asides %}
-      {% else %}
-      {% include_array default_asides %}
-      {% endif %}
-    </aside>
-    {% endunless %}
+  {% unless page.sidebar == false %}
+  <aside class="sidebar hide-for-small-only medium-4 columns">
+    {% if site.page_asides.size %}
+    {% include_array page_asides %}
+    {% else %}
+    {% include_array default_asides %}
+    {% endif %}
+  </aside>
+  {% endunless %}
 </div>
 <div class="row">
   <div class="small-12 columns">
