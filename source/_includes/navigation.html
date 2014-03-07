@@ -1,14 +1,16 @@
-<nav class="top-bar hide-for-small-only" data-topbar>
+<nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
       {% if page.title %}
         <h1><a href="#">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
       {% endif %}
     </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a><
   </ul>
 
   <section class="top-bar-section">
-    <ul class="subscription right" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
+    {% include custom/navigation.html %}
+    <ul class="subscription right hide-for-small-only" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
       {% if site.simple_search %}
         <li class="has-form">
           <form action="{{ site.simple_search }}" method="get">
@@ -22,7 +24,5 @@
         <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
       {% endif %}
     </ul>
-
-    {% include custom/navigation.html %}
   </section>
 </nav>

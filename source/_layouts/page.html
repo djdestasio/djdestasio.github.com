@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="row">
-  <article role="article" class="small-12 medium-8 columns">
-  {% if page.title %}
+  <article role="article" class="small-12 medium-9 columns">
+  {% if page.title && page.show_title == true %}
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
@@ -24,7 +24,7 @@ layout: default
   {% endunless %}
   </article>
   {% unless page.sidebar == false %}
-  <aside class="sidebar hide-for-small-only medium-4 columns">
+  <aside class="sidebar hide-for-small-only medium-3 columns">
     {% if site.page_asides.size %}
     {% include_array page_asides %}
     {% else %}
