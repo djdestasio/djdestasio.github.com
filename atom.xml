@@ -4,7 +4,7 @@
   <title><![CDATA[Dominick J. DeStasio]]></title>
   <link href="http://djdestasio.github.com/atom.xml" rel="self"/>
   <link href="http://djdestasio.github.com/"/>
-  <updated>2014-02-25T23:05:33-05:00</updated>
+  <updated>2014-08-27T23:16:18-04:00</updated>
   <id>http://djdestasio.github.com/</id>
   <author>
     <name><![CDATA[Dominick J. DeStasio]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[You're the Tech Lead! Now What?]]></title>
+    <link href="http://djdestasio.github.com/blog/2014/08/27/youre-a-tech-lead/"/>
+    <updated>2014-08-27T21:45:52-04:00</updated>
+    <id>http://djdestasio.github.com/blog/2014/08/27/youre-a-tech-lead</id>
+    <content type="html"><![CDATA[<p>Just a few weeks ago I was fortunate enough to attend the 3rd (and my 3rd) <a href="https://www.thatconference.com/">That Conference</a> in Wisconsin Dells, WI. This is also the first year that I also took my wife and daughters along as well &mdash; more on that another time, but I will say that they&rsquo;re doing awesome stuff for the kids.</p>
+
+<p>Almost all of the sessions that I went to this year were outstanding, but there were a couple that stood out enough for me to blog about. <a href="twitter.com/eryno">Eryn O&#8217;Neil</a> presented on being the technical lead on projects and all of the responsibilities that go along with it. I&rsquo;ll be honest, there were a few other sessions that I had thought about going to &mdash; I&rsquo;ve been a tech lead for a while now and I think I do a damn good job at it &mdash; but a coworker of mine who was just becoming a tech lead had decided to go, so I thought I&rsquo;d tag along. I&rsquo;m really glad that I did because it was a great session.  If you&rsquo;d like to checkout the entire slide deck, you can find it online <a href="http://lanyrd.com/2014/thatconference/sdczgm/">here</a>.</p>
+
+<h2>What&rsquo;s a tech lead?</h2>
+
+<p>Eryn describes a tech lead as the owner of the technological vision for a project and the technical leader of the project team and also acknowledges that it changes some from one organization to another. In my organization, the tech lead is also the person typically responsible for project management aspects of the project such as time, budget, and scope.</p>
+
+<p>At the end of the day, I am typically the lynchpin between the interests of the client, our business, and my team.</p>
+
+<h2>What has worked well for me</h2>
+
+<h3>Consider yourself a coach, not a manager</h3>
+
+<p>I played a lot of sports growing up, particularly baseball, and I have also coached Little League. Throughout my life, I&rsquo;ve had more respect and admiration for the coaches that I&rsquo;ve had than virtually anyone else. One coaching philosophy that has helped me the most with being a tech lead is that as a coach or tech lead you should always be the one shouldering the blame when things go wrong, and when things it should always be the team that gets the credit.</p>
+
+<p>Your job is no longer about you, it&rsquo;s about the team. You&rsquo;re responsible for putting the team in a position to be successful and shielding them as much chaos as possible. Happy team members are usually more productive ones. Your team should know that you have their back and that your goal is not only to make the project successful but also to do whatever you can to make them successful.</p>
+
+<p>Sure, sometimes you will have to have hard conversations with members of your team that are underperforming or not playing by the same rules as everyone else; but, make those discussions public and handle them with respect.</p>
+
+<p>Being a technical lead is as much about psychology as it is about technology. Your goal should be to know your team better than they know themselves &mdash; at least when it comes to job related functions &mdash; so that you can put each one of them in the best positions to help the team succeed. Every single person on your team will respond to things differently and it&rsquo;s up to you to try to understand that so you can get the best out the team.</p>
+
+<p>Oh, and by the way &mdash; if you work as a consultant, you&rsquo;re probably coaching the client in addition to the team. Many clients do not understand the process of software development and fail to realize the impact that they themselves have on the success or failure of the project.</p>
+
+<h3>Don&rsquo;t be a <a href="http://www.merriam-webster.com/dictionary/yes-man">yes-man</a></h3>
+
+<p>As a technical lead, you have to have the moxy to say no when the situation calls for it. The yes-man technical lead will far too often expose their team to failure no matter how hard your team pushes to avoid it and sooner or later you will lose the respect of your team. As a tech lead, it&rsquo;s your job to have the difficult conversations with the business, clients, or whatever party it is that has unrealistic expectations as to what the team can actually achieve.</p>
+
+<p>You can&rsquo;t always say no just for the sake of saying no either. Sooner or later, you will lose credibility with the forces outside of the team and lose the ability to protect them when it&rsquo;s necessary. Sometimes you have to push the team, but you need to be able to know when to push and when to protect.</p>
+
+<p>If difficult conversations and having people be upset with you is something that you cannot live with, you probably are not cut out to be a lead. These things are all normal parts of being a tech lead and the good ones are able to keep a level head and handle the situations appropriately when they arise.</p>
+
+<h3>Just say no to scope creep</h3>
+
+<p>Seriously, just say no. The first couple of times you may think that it&rsquo;ll be fine to just give the client these extra features even though they weren&rsquo;t in the original scope of work. Who is going to know, they&rsquo;re small, it will be harmless. WRONG. There are a few things that you probably don&rsquo;t realize when you do this.</p>
+
+<p>First of all, you&rsquo;re conditioning the client that it&rsquo;s okay to add scope and expect that it won&rsquo;t have any impact on the budget. Sooner or later, the client is going to ask for something else that&rsquo;s much larger &mdash; they may or may not have any idea that it&rsquo;s larger &mdash; and they&rsquo;re going to get really upset when you push back because you have trained them that it&rsquo;s an okay thing to do.</p>
+
+<p>Second, when (not if) other issues arise on the project, you will have less room to maneuver because of the the time and money you spend on scope creep. If you run out of budget, it will be a lot more difficult to explain to them that they&rsquo;re not going to get a feature that was clearly in scope from the beginning of the project.</p>
+
+<p>Also, the client will inevitably come back to you with something that is either wrong or needs to be improved about the feature that you built them for free. Since you didn&rsquo;t have this discussion in the first place, you will probably feel that you need to fix or improve these features which will take you even more time.</p>
+
+<p>I handle these situations by having backlog discussions with the client. If they want to add a new feature they must remove one of comparable size from the backlog. If for some reason a miracle happens and we get to the end of the project and have enough additional room in the budget, then and only then can they have that feature back without adding to the budget.</p>
+
+<h3>Don&rsquo;t be afraid of (or ignorant to) the risks of your project</h3>
+
+<p>I find myself constantly looking for what can go wrong on my projects. Lots of people think that I&rsquo;m just a pessimistic person because of this, but I&rsquo;m really not. As a lead, it&rsquo;s your job to be out in front of the team removing any landmines might be waiting to blow up the project.</p>
+
+<p><a href="https://twitter.com/jeremyjarrell">Jeremy Jarrell</a> gave a good talk at Pittsburgh Tech Fest about using a PIxE strategy for <a href="http://www.slideee.com/slide/reducing-risk-in-agile-projects">Reducing Risk in Agile Projects</a>. I also agree with Eryn that you should go after the parts of the project that scare you the most and relentlessly chase down answers until you aren&rsquo;t scared anymore.</p>
+
+<p>The largest risk to any software development project is a technical lead that thinks there aren&rsquo;t any risks or hasn&rsquo;t even thought about preparing for the ones they know exist.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[IMessage Fail]]></title>
